@@ -1,0 +1,16 @@
+#include<stdio.h>
+int divi();
+void main()
+{
+    int divi1;
+    divi1=divi();
+    printf("Division = %d",divi1);
+}
+int divi()
+{
+    int divi1,a,b;
+    printf("Enter two numbers");
+    scanf("%d%d",&a,&b); 
+    divi1=a/b;
+    return divi1;
+}
